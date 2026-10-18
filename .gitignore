@@ -1,0 +1,17 @@
+env
+env_old
+*.bak
+*.pyc
+__pycache__
+results
+# excluding user settings for the GUI frontend
+configs/settings.yaml
+
+node_modules/
+.venv/
+venv/
+.env
+__pycache__/
+env/Lib/site-packages/cv2/cv2.pyd
+env/Lib/site-packages/jaxlib/jax_common.dll
+env/Lib/site-packages/torch/lib/torch_cpu.dll
